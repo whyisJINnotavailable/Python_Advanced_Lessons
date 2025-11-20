@@ -4,14 +4,16 @@ import tkinter as tk
 win = tk.Tk()
 
 #function
-#create a "printtext" function 
+
+#create a "printtext" function for print words in the terminal 
 def printtext():
     print(entry.get())
 
-#create another "inserttext" function
+#create a "inserttext" function for insert latest words and the back of the current words
 def inserttext():
     entry.insert(tk.END, entry2.get())
     
+#create a "deletetext" function for words deletion
 def deletetext():
     entry.delete(0,tk.END)
 
