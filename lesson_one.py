@@ -1,3 +1,8 @@
+# Learned about
+# 1. Widget Assignation for user's input
+# 2. Adding Widget into the window
+# 3. Learned created the script template/format of gui 
+
 import tkinter as tk
 
 #create window
@@ -14,14 +19,15 @@ def save():
     win.quit()
 
 #image upload
+# "(file = "folder_name\picture_name.png)"
 p1 = tk.PhotoImage(file = "elements\download.png")
 
-#setting of window
+#setting of window (properties of window)
 win.title("Personal Details")
 win.geometry("300x200")
 win.iconphoto(False,p1)
 
-#assign widget
+#assign widget (create input box for user to input, examples:name,age,gender)
 label1 = tk.Label(
     text = 'Name:',
     font = "Forte 10 italic bold underline",
@@ -45,7 +51,7 @@ btn = tk.Button(
     text = 'Done',
     command = save)
 
-#adding widget into window
+#adding widget into window (put the widgets that created into the window)
 label1.pack()
 input1.pack()
 label2.pack()
@@ -54,5 +60,5 @@ label3.pack()
 input3.pack()
 btn.pack()
 
-#looping of window
+#looping of window (keep your window staying there)
 win.mainloop()
