@@ -20,7 +20,7 @@ def save():
 
 #image upload
 # "(file = "folder_name\picture_name.png)"
-p1 = tk.PhotoImage(file = "elements\download.png")
+p1 = tk.PhotoImage(file = "Python_Advanced_Lessons\elements\download.png")
 
 #setting of window (properties of window)
 win.title("Personal Details")
