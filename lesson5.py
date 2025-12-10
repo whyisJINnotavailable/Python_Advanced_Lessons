@@ -51,23 +51,12 @@ def game_loop():
 
 # =========================
 # 7. Player input (buttons and keyboard)
-def move_left():
-    canvas.move(player, -10, 0)
-
-def move_right():
-    canvas.move(player, 10, 0)
-
-btn_left = tk.Button(win, text="Left", command=move_left)
-btn_left.pack(side="left")
-
-btn_right = tk.Button(win, text="Right", command=move_right)
-btn_right.pack(side="right")
 
 def on_key_press(event):
     if event.keysym == "Left":
-        canvas.move(player, -10, 0)
+        canvas.move(player, -10, +0)
     elif event.keysym == "Right":
-        canvas.move(player, 10, 0)
+        canvas.move(player, +10, +0)
     elif event.keysym == "Up":
         canvas.move(player, 0, -10)
     elif event.keysym == "Down":
