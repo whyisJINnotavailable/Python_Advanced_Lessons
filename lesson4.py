@@ -17,25 +17,6 @@ win.iconphoto(False,p1)
 # 3. Game canvas and objects
 canvas = tk.Canvas(win, width=600, height=200, bg="black")
 canvas.pack()
-
-# Step 1: What size of the shape(box) drawing you want? Example 50x50 (widthxheight)
-
-# Step 2: Where do you want it to be? Example middle (width and height divides half)
-
-# Step 3: player = canvas.create_rectangle(x1,y1,x2,y2, fill="color")
-
-# Step 4: how to calculate x1,y1,x2,y2? 
-
-# Step 4: remember "x" for width; "y" for height.
-
-# Step 4: Therefore, x1 and y1 use number that divided by half to 
-# minus half of the width & height number of box.
-
-# Step 4: Therefore, x2 and y2 use number that divided by half to
-# plus half of the width & height number of box.
-
-# Lastly, put the x1,y1,x2,y2 into the parameter
-
 # player = canvas.create_rectangle(x1,y1,x2,y2, fill="white")
 player = canvas.create_rectangle(275,75,325,125, fill="white")
 
