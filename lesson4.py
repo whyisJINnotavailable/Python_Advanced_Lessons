@@ -35,6 +35,7 @@ canvas.pack()
 
 # Lastly, put the x1,y1,x2,y2 into the parameter
 
+# player = canvas.create_rectangle(x1,y1,x2,y2, fill="white")
 player = canvas.create_rectangle(275,75,325,125, fill="white")
 
 # =========================
