@@ -7,8 +7,9 @@ import tkinter as tk
 # 2. Game window setup
 win = tk.Tk()
 win.title("Crazy Mario")
+#win.geometry("width x height")
 win.geometry("600x200")
-p1 = tk.PhotoImage(file="Python_Advanced_Lessons/elements/mario.png")
+p1 = tk.PhotoImage(file="elements/mario.png")
 win.iconphoto(False,p1)
 # =========================
 
