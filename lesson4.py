@@ -9,8 +9,8 @@ win = tk.Tk()
 win.title("Crazy Mario")
 #win.geometry("width x height")
 win.geometry("600x200")
-p1 = tk.PhotoImage(file="elements/mario.png")
-win.iconphoto(False,p1)
+#p1 = tk.PhotoImage(file="elements/mario.png")
+#win.iconphoto(False,p1)
 # =========================
 
 # =========================

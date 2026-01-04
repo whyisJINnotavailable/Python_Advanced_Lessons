@@ -3,7 +3,6 @@
 # =========================
 # 1. Modules imports
 import tkinter as tk
-import random
 # =========================
 
 # =========================
