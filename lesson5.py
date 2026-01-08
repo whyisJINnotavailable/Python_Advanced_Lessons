@@ -16,8 +16,8 @@ win = tk.Tk()
 win.title("Tkinter Game - Canvas Intro")
 win.geometry("600x200")
 try:
-    p1 = tk.PhotoImage(file="C:/Users/User/Desktop/Python_Advance_Lesson/Python_Advanced_Lessons/elements/mario.png")
-    win.iconphoto(False,p1)
+    p1 = tk.PhotoImage(file="C:/Users/User/Desktop/Python_Advance_Lesson/Python_Advanced_Lessons/elements/mario.png") # find where's the picture
+    win.iconphoto(False,p1) # put picture as icon in window
 except:
     pass
 
